@@ -1,0 +1,15 @@
+# Basic requirements for the simple and enhanced chatbots
+# These are built-in Python modules, no additional installations needed for basic versions
+
+# For the advanced NLP version (optional):
+nltk>=3.8
+textblob>=0.17.1
+spacy>=3.4.0
+
+# For web interface (optional future enhancement):
+flask>=2.3.0
+requests>=2.31.0
+
+# For data analysis and visualization (optional):
+pandas>=1.5.0
+matplotlib>=3.6.0
