@@ -8,7 +8,7 @@ This project contains multiple chatbot implementations:
 
 1. **Simple Chatbot** (`simple_chatbot.py`) - Basic rule-based chatbot using pattern matching
 2. **Enhanced Chatbot** (`enhanced_chatbot.py`) - Advanced chatbot with memory and conversation context
-3. **NLP Chatbot** (`nlp_chatbot.py`) - Natural language processing chatbot (coming soon)
+3. **NLP Chatbot** (`nlp_chatbot.py`) - Natural language processing chatbot with sentiment analysis
 
 ## 🚀 Quick Start
 
@@ -46,6 +46,18 @@ python3 enhanced_chatbot.py
 - Conversation history saving
 - Context-aware responses
 - Special commands (`stats`)
+
+### Running the NLP Chatbot
+```bash
+python3 nlp_chatbot.py
+```
+
+**Features:**
+- All enhanced chatbot features
+- Sentiment analysis with mood indicators
+- Emotion detection
+- Intent recognition
+- Advanced conversation analytics
 
 ## 📦 Installation (For Advanced Features)
 
@@ -123,9 +135,11 @@ self.patterns = {
 python-chatbot/
 ├── simple_chatbot.py      # Basic rule-based chatbot
 ├── enhanced_chatbot.py    # Chatbot with memory and context
-├── nlp_chatbot.py         # NLP-powered chatbot (coming soon)
+├── nlp_chatbot.py         # NLP-powered chatbot with sentiment analysis
+├── run_chatbot.py         # Easy launcher for all chatbots
 ├── requirements.txt       # Python dependencies
 ├── README.md             # This file
+├── LICENSE               # MIT License
 └── conversation_*.json   # Saved conversation logs (generated)
 ```
 
